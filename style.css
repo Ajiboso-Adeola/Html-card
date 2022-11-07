@@ -1,0 +1,90 @@
+*{
+  padding:0;
+  box-sizing: border-box;
+}
+
+.box {
+  border:1px solid black;
+  padding:15px;
+  border-radius: 15px;
+}
+.box1{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-self: center; 
+}
+  
+h3 {
+  padding:10px;
+  padding-top: 2px;
+  margin-bottom:0;
+}
+h1{
+  padding:5px;
+  padding-top: 5px;
+}
+
+h4{
+  padding: 10px;
+  padding-bottom:0px;
+}
+h6{
+  color: gray;
+  padding:10px;
+  font-size: 12px;
+margin:0;
+}
+
+span{
+  font-size:13px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin: 0;
+  padding:10px;
+  padding-top:0.5px;
+  display: flex;
+  gap:0.5em;
+  height: 1.5em;
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+
+details>summary {
+ font-size:12px;
+ position: inline;
+  list-style:none;
+  padding:10px;
+  
+}
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  content: " ▼";
+  color: grey;
+  font-size: 0.8em;
+  
+}
+details[open] summary:after {
+  content: " ▼";
+  font-size:0.8em;
+  color: grey;
+  
+}
+  
